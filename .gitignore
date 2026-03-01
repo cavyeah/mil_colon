@@ -1,0 +1,16 @@
+# Virtual Environment
+colonvenv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data folders
+data/
+
+# Model files
+*.pt
+*.pth
+
+# Outputs
+outputs/
