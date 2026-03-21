@@ -1,16 +1,27 @@
-# Virtual Environment
-colonvenv/
+# Ignore everything by default
+*
 
-# Python cache
-__pycache__/
+# Allow only these folders/files
+!src/
+!src/train_clam_5fold.py
+!src/clam_model.py
+!data/
+!data/labels.csv
+!requirements.txt
+!README.md
+!.gitignore
+
+# Still ignore heavy stuff inside allowed folders
+src/__pycache__/
 *.pyc
 
-# Data folders
-data/
-
-# Model files
+data/features/
+data/patches/
 *.pt
-*.pth
+*.h5
+*.svs
+*.tif
 
-# Outputs
+# Logs / outputs
+*.log
 outputs/
