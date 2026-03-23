@@ -1,2 +1,0 @@
-threshold,accuracy,precision,recall,specificity,f1,auc,tp,tn,fp,fn,n_slides,threshold_source
-0.6,0.8734177215189873,0.8461538461538461,1.0,0.5833333333333334,0.9166666666666666,0.9977272727272727,55,14,10,0,79,five_fold_threshold_summary.csv
